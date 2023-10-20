@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url("../../assets/img/bg.jpg");
+  background-size: cover;
+  font-family: Lora;
+}
+
+.selectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: #fff;
+}
+
+.selectContainerInt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding:30px
+}
+
+.select {
+  border: 1px solid #ddd;
+  font-size: 17px;
+  padding: 8px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.description {
+  font-size: 17px;
+  width: 100%;
+  background: #e1e1e1;
+}
+
+.descriptionInt {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 20px;
+  padding-bottom: 40px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.textContainer {
+  border: 1px solid #ddd;
+  font-size: 17px;
+  padding: 8px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 0 auto;
+  min-height: 400px;
+  width: 90%;
+  background: #fff;
+  max-width: 700px;
+  padding:20px;
+  text-align: justify;
+}
+
+p {
+    margin-bottom: 5px !important;
+}
+
+.copyButtonContainer{
+    display: flex;
+    margin-top:40px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 740px;
+}
+
+.copyButton{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size:14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:7px;
+    border:1px solid #ddd;
+    background: #777;
+    color:#fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.copyButton:hover{
+    background: #999;
+}
