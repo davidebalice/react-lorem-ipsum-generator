@@ -16,7 +16,17 @@ const Header = () => {
                     <img src={logo} alt="db logo" className={classes.logo} />
                   </div>
                   <div className={classes.logoContainer}>
-                    <img src={github} alt="db logo" className={classes.github} />
+                    <a
+                      href="https://github.com/davidebalice/react-lorem-ipsum-generator"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={github}
+                        alt="db logo"
+                        className={classes.github}
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
